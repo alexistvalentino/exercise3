@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #444; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+}
+
+.wrapper {
+    background-image: url(../images/bgcontainer.jpg);
+    width: 35.5%;
+    height: 1070px;
+    margin: auto;
+}
+
+.wrapper .menu {
+    width: auto;
+    height: 7%;
+    background-image: url(../images/bgcontent.gif);
+    background-repeat: no-repeat;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    padding-top: 15px;
+}
+
+.wrapper .menu ul {
+    list-style-type: none;    
+}
+
+.wrapper .menu ul li {
+    float: left;
+    width: 80px;
+    text-align: center ;
+    margin-left: 36px;
+}
+
+.wrapper .menu ul li a {
+    margin: auto;
+}
+
+.wrapper .top-image {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.wrapper .top-image img {
+    width: 600px;
+    height: 220px;
+}
+
+.wrapper .content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content .paragraph1 p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.content .paragraph1 a {
+    color: blue;
+}
+
+.content .paragraph2 p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.content .paragraph2 a {
+    color: blue;
+}
+
+.first-letter {
+    display: block;
+    float: left;
+    font-size: 3em;
+    margin-top: -10px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.map {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    border: dotted;
+}
+
+.content .paragraph2 .quotes {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive;
+}
+
+.quotes-img {
+    margin-right: 5px;
+}
+
+.wrapper .content .paragraph1 {
+    width: 100%;
+}
+
+.wrapper .content .divider {
+    background-image: url(../images/divider.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    margin: 20px auto;
+    width: 560px;
+}
+
+.wrapper .content .paragraph2 {
+    width: 100%;
+}
+
+.wrapper .footer {
+    background-image: url(../images/bgfooter.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    margin-top: 27px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    text-align: center;
+    font-size: 12px;
+}
